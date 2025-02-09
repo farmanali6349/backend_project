@@ -1,0 +1,20 @@
+{
+  "name": "backend_project",
+  "version": "1.0.0",
+  "description": "This is backend project for npm.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Farman Ali",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prettier": "^3.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
